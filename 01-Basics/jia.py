@@ -13,4 +13,4 @@ print("好的"+name+"你今年"+str(age)+"岁了")
 age=int(age)+1
 print("明年你就"+str(age)+"岁了")
 age=int(age)-1
-print(f"去年你就{age}岁了")
+print(f"去年你是{age}岁")
