@@ -21,3 +21,4 @@ gmsl=input("请输入商品的购买数量：")
 result=float(spdj)*int(gmsl)
 print(f"你购买了{gmsl}个{spmc}")
 print(f"总共需支付{result}元")
+1
