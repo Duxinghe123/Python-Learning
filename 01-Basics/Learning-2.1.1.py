@@ -1,4 +1,5 @@
-#学习变量以及基础计算
+# Learning Python 2.1.1
+# 学习变量以及基础计算
 # name="xinghe"
 # money=100
 # a=50
@@ -83,3 +84,19 @@
 #     print("不允许参加")
 
 # Python 第六课：while 循环
+# i=1
+# while i<=10:
+#     print(str(i))
+#     i=i+1 #另一种写法：i += 1
+# i=1
+# total=0
+# while i<=100:
+#     total=total+i
+#     i=i+1
+# print(total)
+# 认识 for 循环
+# range() 函数可以生成一个整数序列
+total=0
+for i in range(2,101,2):
+    total=i+total
+print(total)
