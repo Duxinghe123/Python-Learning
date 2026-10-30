@@ -58,3 +58,5 @@
 #     print("及格")
 # else:
 #     print("不及格")
+
+# Python 第四课：逻辑运算符 and、or、not
