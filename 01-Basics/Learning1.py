@@ -60,3 +60,26 @@
 #     print("不及格")
 
 # Python 第四课：逻辑运算符 and、or、not
+# and并且 or或者 not取反
+# and	并且	所有条件都为 True
+# or	或者	至少一个条件为 True
+# not	取反	反转 True 和 False
+# type 输出这个是什么数据类型
+# str 转换为字符串
+# age=input("请输入你的年龄：")
+# age=int(age)
+# cj=input("请输入你的成绩：")
+# cj=int(cj)
+# if age>=18 and cj>=60:
+#     print("审核通过")
+# else:
+#     print("审核不通过")\
+
+# age = int(input("输入你的年龄："))
+# yqh = (input("是否有邀请函 请输入yes或者no："))
+# if age>=18 or yqh=="yes": # ==的意思是比较 =是赋值
+#     print("允许参加")
+# else: # 一定要注意加上 ：
+#     print("不允许参加")
+
+# Python 第六课：while 循环
