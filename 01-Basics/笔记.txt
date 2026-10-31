@@ -1,3 +1,17 @@
 break	立即结束整个循环
 continue	跳过本轮，继续下一轮
 range() 函数可以生成一个整数序列
+
+# 三种输出方式的区别
+# 逗号分隔	print("成绩：", scores)
+print("原始成绩为：",scores)
+print("升序成绩为：",ascending)
+print("降序成绩为：",descending)
+# str() 转换	print("成绩：" + str(scores))
+print("原始成绩为：" + str(scores))
+print("升序成绩为：" + str(ascending))
+print("降序成绩为：" + str(descending))
+# f-string	print(f"成绩：{scores}")
+print(f"原始成绩为:{scores}")
+print(f"升序成绩为:{ascending}")
+print(f"降序成绩为:{descending}")

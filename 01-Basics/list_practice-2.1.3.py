@@ -31,3 +31,27 @@ for score in scores:  # 遍历列表，依次取出每一个成绩
 print("最高成绩为：", highest)  # 循环结束后，输出最终最高分
 
 # 列表中的最小值与计数 2.2.1
+scores = [85, 52, 76, 43, 95, 59, 100]
+# minisz=scores[0]  # 将列表中第一个成绩85作为初始最小值
+# for score in scores:  # 遍历列表，依次取出每一个成绩
+#     if score < minisz:
+#         minisz = score  # 如果更小，就更新最小值
+# print("最低成绩为：", minisz)  # 循环结束后，输出
+
+count = 0
+for score in scores: # 遍历
+    if score < 60:
+        count += 1
+print("不及格人数为：", count)  # 循环结束后，输出不及格人数
+
+scores = [85, 52, 76, 43, 95, 59, 100]
+minisz = scores[0]
+count = 0
+for score in scores:
+    # 这里由你编写两个 if 判断
+    if score < minisz:
+        minisz = score
+    if score < 60:
+        count += 1
+print("不及格人数为：", count)  # 循环结束后，输出不及格人数
+print("最低成绩为：", minisz)  # 循环结束后，输出最低成绩
