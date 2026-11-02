@@ -15,3 +15,12 @@ print("降序成绩为：" + str(descending))
 print(f"原始成绩为:{scores}")
 print(f"升序成绩为:{ascending}")
 print(f"降序成绩为:{descending}")
+
+scores = [85, 42, 96, 58, 73, 60, 39]  # 创建学生成绩列表
+jige = [cj for cj in scores if cj >= 60]  # 筛选大于或等于60分的成绩
+print(jige)  # 输出所有及格成绩
+
+# cj	将符合条件的成绩加入新列表
+# for cj in scores	遍历原始成绩列表
+# if cj >= 60	只保留大于或等于 60 分的成绩
+# jige =	把筛选结果保存到变量 jige
